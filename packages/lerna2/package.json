@@ -1,0 +1,33 @@
+{
+  "name": "lerna2",
+  "version": "0.0.0",
+  "description": "lerna2",
+  "keywords": [
+    "lerna2"
+  ],
+  "author": "zhangwu110 <779054642@qq.com>",
+  "homepage": "https://github.com/zhangwu110/lernaStudy#readme",
+  "license": "ISC",
+  "main": "lib/lerna2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangwu110/lernaStudy.git"
+  },
+  "scripts": {
+    "test": "jest"
+  
+  },
+  "bugs": {
+    "url": "https://github.com/zhangwu110/lernaStudy/issues"
+  }
+}

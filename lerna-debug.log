@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   registry: 'http://localhost:4873/',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   name: '@lerna/add'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/a58/Documents/GithubR/lernaStudy
+3 error TypeError: Cannot read property 'trim' of undefined
+3 error     at module.exports (/Users/a58/Documents/GithubR/lernaStudy/node_modules/validate-npm-package-license/index.js:60:20)
+3 error     at /Users/a58/Documents/GithubR/lernaStudy/node_modules/@lerna/create/lib/lerna-module-data.js:140:19
+3 error     at PromZard.<anonymous> (/Users/a58/Documents/GithubR/lernaStudy/node_modules/promzard/promzard.js:226:19)
+3 error     at onError (/Users/a58/Documents/GithubR/lernaStudy/node_modules/read/lib/read.js:94:12)
+3 error     at Interface.<anonymous> (/Users/a58/Documents/GithubR/lernaStudy/node_modules/read/lib/read.js:66:5)
+3 error     at Interface.emit (events.js:314:20)
+3 error     at Interface._ttyWrite (readline.js:868:16)
+3 error     at ReadStream.onkeypress (readline.js:205:10)
+3 error     at ReadStream.emit (events.js:314:20)
